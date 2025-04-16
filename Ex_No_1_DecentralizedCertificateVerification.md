@@ -2,10 +2,12 @@
 ## Aim:
   To develop a smart contract for issuing and verifying academic certificates on Ethereum, preventing forgery and ensuring authenticity.
 ## Algorithm:
-1. Deploy a smart contract where universities can issue certificates.
-2. Store a hash of certificate data on-chain.
-3. Provide a verification function that checks certificate authenticity.
-4. Users can verify the certificate by comparing the stored hash.
+1. Issuer Creates Certificate: Generate and digitally sign the certificate.
+2. Store Hash on Blockchain: Store the certificate’s hash and metadata on a decentralized ledger.
+3. Verifier Retrieves Hash: The verifier checks the blockchain for the certificate hash.
+4. Compare Hashes: If the retrieved hash matches, the certificate is valid; otherwise, it's invalid or tampered.
+5. Revalidation (Optional): Check for updates or revocations on the blockchain.
+6. This process ensures secure, decentralized verification.
 ## Program:
 ```
 // SPDX-License-Identifier: MIT
