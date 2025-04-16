@@ -67,8 +67,11 @@ If the goal is not met, contributors can claim a refund.
 
 
 # Output :
+Contribute Output : 
 ![alt text](<contibute output.png>) 
+Withdraw Output : 
 ![alt text](<withdrawl output.png>)
+Campaign Output :
 ![alt text](<campaign output.png>)
 
 # RESULT: 
