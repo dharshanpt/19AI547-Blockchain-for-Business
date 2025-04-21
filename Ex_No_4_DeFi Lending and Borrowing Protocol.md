@@ -26,6 +26,9 @@ If collateral < liquidation threshold, liquidators can repay the borrower's debt
 
 
 Program:
+#### Developed by: Prem Kumar G
+#### Register number: 212223230158
+#### Date: 21/04/2025
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -73,25 +76,11 @@ contract DeFiLending {
 }
 
 ```
-# Expected Output:
-Users can deposit ETH and earn interest.
-
-
-Users can borrow ETH by providing collateral.
-
-
-If collateral < 150% of borrowed amount, liquidators can seize the collateral.
-
-
-
-# High-Level Overview:
-Teaches key DeFi concepts: lending, borrowing, collateral, liquidation.
-
-
-Introduces risk management: overcollateralization and liquidation.
-
-
-Directly related to DeFi protocols like Aave and Compound.
+# Output :
+![alt text](<Screenshot 2025-04-21 133511.png>)
+![alt text](<Screenshot 2025-04-21 134555.png>)
+![alt text](<Screenshot 2025-04-21 134631.png>)
+![alt text](<Screenshot 2025-04-21 134720.png>)
 
 # RESULT : 
-
+Thus, to build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi is executed successfully.
