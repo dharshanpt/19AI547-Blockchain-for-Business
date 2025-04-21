@@ -12,9 +12,9 @@ To create a decentralized crowdfunding platform where donors contribute funds on
 7. Ensure Transparency – All actions are logged on blockchain.
 
 ## Program:
-######Developed by: Prem Kumar G
-######Register number: 21222323158
-######Date: 16/04/2025
+#### Developed by: Prem Kumar G
+#### Register number: 21222323158
+#### Date: 16/04/2025
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
