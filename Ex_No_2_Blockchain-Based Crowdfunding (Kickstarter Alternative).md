@@ -3,13 +3,18 @@
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
 ## Algorithm:
-1. Create Campaign – Deploy smart contract with goal, deadline, and details.
-2. Contribute Funds – Backers send funds to the smart contract.
-3. Check Outcome (After Deadline) –
-4. If goal met → funds go to creator.
-5. If goal not met → backers can refund.
-6. Withdraw/Refund – Creator withdraws or backers claim refund.
-7. Ensure Transparency – All actions are logged on blockchain.
+### step 1:
+
+A project owner starts a campaign with a funding goal and deadline.
+### step 2:
+
+Contributors can send ETH to the campaign.
+### step 3:
+
+If the goal is met before the deadline, funds are released to the project owner.
+### step 4:
+
+If the goal is not met, contributors can withdraw their funds.
 
 ## Program:
 #### Developed by: Prem Kumar G
