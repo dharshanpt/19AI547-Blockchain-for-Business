@@ -109,7 +109,8 @@ contract PasswordlessAuthDemo {
 
 
 ## The smart contract verifies signatures to confirm identity.
-![WhatsApp Image 2025-04-28 at 15 00 11_0ab0abf0](https://github.com/user-attachments/assets/87481f8b-ba8a-4fd8-818c-3dd092cbf068)
+![WhatsApp Image 2025-04-28 at 15 00 01_ee46482d](https://github.com/user-attachments/assets/b5dda14e-b6f6-4e3d-aeef-0424eb3b7002)
+
 ![WhatsApp Image 2025-04-28 at 15 00 11_86cc48bf](https://github.com/user-attachments/assets/40ba54c1-69a9-432d-95cc-a70e17cb69cb)
 
 
