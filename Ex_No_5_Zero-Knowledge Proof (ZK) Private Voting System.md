@@ -81,22 +81,26 @@ Mimics real-world ZK voting applications in governance and DAOs.
 # Output:
 
 ### Register voter
+![Screenshot 2025-04-28 132632](https://github.com/user-attachments/assets/ca60c99b-4683-411e-afe2-77c9940bf64d)
 
-![alt text](<Screenshot 2025-04-28 132632.png>)
+
 
 ### Reveal vote
+![Screenshot 2025-04-28 132708](https://github.com/user-attachments/assets/da20fdab-ae08-4510-8ed7-25b1bf51d4dd)
 
-![alt text](<Screenshot 2025-04-28 132708.png>)
-![alt text](<Screenshot 2025-04-28 132904.png>)
+![Screenshot 2025-04-28 132904](https://github.com/user-attachments/assets/feb44ab2-f67f-4cf6-9216-7ef2b38b23fd)
+
+
 
 ### Register voter for new user
 
-![alt text](<Screenshot 2025-04-28 132936.png>)
+![Screenshot 2025-04-28 132936](https://github.com/user-attachments/assets/e8acd57b-27b4-4cbe-8e65-6ae579b37069)
+
 
 ### Reveal vote
+![Screenshot 2025-04-28 133007](https://github.com/user-attachments/assets/a4315543-efca-4bc4-adeb-975daea5c22d)
 
-![alt text](<Screenshot 2025-04-28 133007.png>)
-![alt text](<Screenshot 2025-04-28 133044.png>)
+![Screenshot 2025-04-28 133044](https://github.com/user-attachments/assets/20d58e02-4f06-4800-834d-2dde7a016dc8)
 
 
 # RESULT: 
