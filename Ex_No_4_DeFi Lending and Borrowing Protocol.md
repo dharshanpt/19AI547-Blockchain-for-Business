@@ -26,8 +26,8 @@ If collateral < liquidation threshold, liquidators can repay the borrower's debt
 
 
 Program:
-#### Developed by: Prem Kumar G
-#### Register number: 212223230158
+#### Developed by: DHARSHAN PT
+#### Register number: 212223230046
 #### Date: 21/04/2025
 ```
 // SPDX-License-Identifier: MIT
