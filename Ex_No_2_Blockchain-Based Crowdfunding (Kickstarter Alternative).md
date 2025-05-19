@@ -17,8 +17,8 @@ If the goal is met before the deadline, funds are released to the project owner.
 If the goal is not met, contributors can withdraw their funds.
 
 ## Program:
-#### Developed by: Prem Kumar G
-#### Register number: 21222323158
+#### Developed by: DHARSHAN PT
+#### Register number: 212223230046
 #### Date: 16/04/2025
 ```
 // SPDX-License-Identifier: MIT
