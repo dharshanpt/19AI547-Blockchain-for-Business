@@ -1,40 +1,31 @@
 # Experiment 7: AI-Powered Smart Contract for Decentralized Negotiation
+
 # Aim:
-# To create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model.
+
+To create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model.
 
 # Algorithm:
-## Step 1: AI-Powered Dynamic Pricing
-Seller lists an item with a minimum price and negotiation range.
 
+Step 1: Item Listing: Seller lists an item with base, minimum, and maximum prices.
 
-Buyer submits an offer price.
+Step 2: Offer Submission: Buyer submits an offer along with ETH matching the offer price.
 
+Step 3: Offer Validation: Smart contract checks if the item is still available and the payment is correct.
 
-AI logic (simulated using Solidity algorithms) evaluates the price based on:
+Step 4: AI Evaluation: dynamicPricing() simulates AI to calculate a counteroffer based on offer vs. price range.
 
+Step 5: Decision Making: If the buyer's offer meets or exceeds the AI’s counteroffer, the sale is confirmed.
 
-Market demand (tracked using on-chain transactions).
+Step 6: Transaction Finalization: Seller receives payment, buyer receives confirmation, and item is marked sold.
 
-
-Historical transaction data.
-
-
-Time-based price fluctuations.
-
-
-## Step 2: Smart Contract Counteroffer
-The contract automatically generates a counteroffer if the buyer’s price is within the negotiation range.
-
-
-If the buyer accepts, the transaction is executed on-chain.
-
-
-## Step 3: Settlement and Price Learning
-Every completed transaction updates the price learning algorithm to refine future pricing decisions.
-
+Step 7: Counteroffer Emission: If the offer is too low, funds are refunded and a counteroffer is emitted as an event.
 
 
 # Program:
+
+### Developed by: DHARSHAN PT
+### Register number: 212223230046
+
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -89,20 +80,31 @@ contract AIPoweredNegotiation {
         return (base + offer) / 2; // Simple AI-based counteroffer logic
     }
 }
+
 ```
 
 # Expected Output:
-Buyers submit offers, and the contract auto-negotiates the price.
+
+### Buyers submit offers, and the contract auto-negotiates the price.
+![Screenshot 2025-05-05 133412](https://github.com/user-attachments/assets/bc8e21c0-7e7d-4f02-993d-c91e27d8abfa)
+
+![Screenshot 2025-05-05 133600](https://github.com/user-attachments/assets/f42c2110-e44f-4511-94b3-b51897e39f03)
 
 
-If the buyer’s offer is fair, the deal is executed.
+
+### If the buyer’s offer is fair, the deal is executed.
+![Screenshot 2025-05-05 134853](https://github.com/user-attachments/assets/1b6a7feb-e8cc-4f38-a8ad-50b221fbe434)
 
 
-If the offer is too low, the contract suggests a counteroffer.
+
+### If the offer is too low, the contract suggests a counteroffer.
+
+![Screenshot 2025-05-05 134048](https://github.com/user-attachments/assets/1abf303f-911a-4a10-aa6e-355665e665e8)
 
 
 
 # High-Level Overview:
+
 First-of-its-kind AI-powered pricing contract.
 
 
@@ -115,5 +117,8 @@ Can be extended to AI oracles for real-time market data.
 Inspired by AI-enhanced commerce and eBay-like decentralized auctions.
 
 # RESULT:
+
+Thus, to create a smart contract that integrates AI logic for automated negotiation in decentralized commerce. The contract adjusts price and conditions dynamically based on real-time market trends using an on-chain AI model is executed successfully.
+
 
 
