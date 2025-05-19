@@ -11,8 +11,8 @@ Provide a verification function that checks certificate authenticity.
 ### step 4:
 Users can verify the certificate by comparing the stored hash.
 ## Program:
-#### Developed by: Prem Kumar G
-#### Register number: 212223230158
+#### Developed by: DHARSHAN PT
+#### Register number: 212223230046
 #### Date: 16/04/2025
 ```
 // SPDX-License-Identifier: MIT
